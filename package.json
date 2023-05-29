@@ -1,0 +1,30 @@
+{
+  "name": "artnet-proxy",
+  "version": "1.0.0",
+  "description": "Simple artnet proxy which allows rate limit for mbit/s and adds sequence numbers for packages if source does not fill them",
+  "main": "artnet-proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhigu/artnet-proxy.git"
+  },
+  "keywords": [
+    "artnet",
+    "proxy",
+    "throttling",
+    "rate-limit"
+  ],
+  "author": "Mikael Lepistö",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elhigu/artnet-proxy/issues"
+  },
+  "homepage": "https://github.com/elhigu/artnet-proxy#readme",
+  "dependencies": {
+    "artnet-protocol": "^0.2.1",
+    "commander": "^10.0.1",
+    "dmxnet": "^0.9.0"
+  }
+}
